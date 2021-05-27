@@ -53,7 +53,11 @@ sr.reveal('.skills__img',{delay: 600});
 /*SCROLL WORK*/
 sr.reveal('.work__img',{interval: 200}); 
 
-/*SCROLL CONTACT*/
+/*SCROLL CONTACT1*/
+sr.reveal('.contacto-items',{interval: 200})
+
+
+/*SCROLL CONTACT2*/
 sr.reveal('.contact__input',{interval: 200}); 
 
 /*DARK MODE*/
