@@ -421,6 +421,8 @@ body.dark-theme{
 .contact-info{
   flex-basis: 45%;
   margin-right: 5%;
+  margin-left: 14px;
+   
 
 }
 .box-contacto{
