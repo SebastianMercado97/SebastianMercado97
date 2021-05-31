@@ -1,18 +1,18 @@
 <?php
-session_start();
-$conn = mysqli_connect(
-    'localhost',
-    'root',
-    '',
-    'test'
+    $host = 'localhost';
+    $usuariodb = 'root';
+    $clabedb = '';
+    $basededatos = 'prueba';
+    
+    $table_db1 = "usuarios";
 
 
-);
-if (isset($conn)){
-    echo "Conexion realizada";
+    $conexion= new mysqli($host,$usuariodb,$clabedb,$basededatos);
 
-}
- 
+    if($conexion->connect_errno){
+        echo "No es posible la conexion";
+        exit();
+    }
 
 
 ?>
